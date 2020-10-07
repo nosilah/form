@@ -1,0 +1,93 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+
+ </head>
+
+ <body>
+     <div class="table">
+         <table id="table-id" cellspacing="0" border="1">
+            <tr>
+                 <th rowspan="2" class="name-inf">имя</th>
+                 <th rowspan="2" class="username-inf">имя пользователя</th>
+                 <th rowspan="2" class="email-inf">email</th>
+                 <th colspan="2" class="address-inf">адрес
+                 </th>
+                 <th rowspan="2" class="phone-inf">телефон</th>
+             </tr>
+
+             <tr>
+                 <th class="address-phone-inf">улица</th>
+                 <th class="address-city-inf">город</th>
+             </tr> 
+           
+         </table>
+       
+
+     </div>
+
+   <div class="form">
+         <form action="" class="ui-form">
+             <h5>Вводите ваши данные</h5>
+             <div class="form-row">
+                 <input  type="text" id="name" required autocomplete="off"><label for="name">name</label>
+             </div>
+             <div class="form-row">
+                 <input type="text" id="username" required autocomplete="off"><label for="name">username</label>
+             </div>
+             <div class="form-row">
+                 <input type="text" id="email" required autocomplete="off"><label for="email">Email</label>
+             </div>
+             <div class="form-row">
+                 <input type="text"  id="street" required autocomplete="off"><label for="street">street</label>
+                 <input type="text" id="city" required autocomplete="off"><label for="city">city</label>
+             </div>
+             <div class="form-row">
+                 <input type="password" id="phone" required autocomplete="off"><label for="phone">phone</label>
+             </div>
+             <p><input type="submit" value="добавить в таблицу"></p>
+         </form>
+
+     </div> 
+     <!-- <div class="page">
+    <table>
+        <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th></th>
+        </tr>
+        <tr>
+        <td>Пупкин</td>
+        <td>Вася</td>
+       <td> <input type="submit" value="dele"></td>
+        </tr> 
+        </table><br>
+        <form class="form-input">
+        <input class="n1" type="text" placeholder="Фамилия">
+        <input class="n1" type="text" placeholder="Имя">
+        </form><br> -->
+     <!-- <input class="input-add" type="submit" value="Внести в таблицу"> -->
+
+     <!-- <input id="form" type="submit" value="Внести в таблицу">
+
+        <form >
+            <input type="text" placeholder="Фамилия">
+            <input type="text" placeholder="Имя">  <br>
+            <input type="text" placeholder="Фамилия">
+            <input type="text" placeholder="Имя">  <br>
+            <input type="text" placeholder="Фамилия">
+            <input type="text" placeholder="Имя">  <br>
+            <input type="text" placeholder="Фамилия">
+            <input type="text" placeholder="Имя">  
+
+        </form> -->
+
+     <script src="index.js"></script>
+ </body>
+
+ </html>
